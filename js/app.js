@@ -60,15 +60,15 @@ function buildArray()
 
 		if (isDivisibleBy3 && isDivisibleBy5)
 		{
-			counter.push("fizbuz");
+			counter.push("fizzbuz");
 		}
 		else if (isDivisibleBy5)
 		{
-			counter.push("buz");
+			counter.push("buzz");
 		}
 		else if (isDivisibleBy3)
 		{
-			counter.push("fiz");
+			counter.push("fizz");
 		}	
 		else 
 		{
